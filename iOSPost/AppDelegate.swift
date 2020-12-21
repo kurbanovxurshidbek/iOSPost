@@ -2,18 +2,19 @@
 //  AppDelegate.swift
 //  iOSPost
 //
-//  Created by KHURSHIDBEK KURBANOV on 2020/12/19.
+//  Created by KHURSHIDBEK KURBANOV
 //
 
 import UIKit
+import Firebase
+
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
         return true
     }
 
